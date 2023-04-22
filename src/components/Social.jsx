@@ -11,7 +11,12 @@ const Social = () => {
       <a href="https://twitter.com/PatrickSperanza" target="_blank">
         <RiTwitterFill className="social-link" />
       </a>
-      <RiLinkedinFill className="social-link" />
+      <a
+        href="https://www.linkedin.com/in/patrick-speranza-893621273/"
+        target="_blank"
+      >
+        <RiLinkedinFill className="social-link" />
+      </a>
     </div>
   )
 }

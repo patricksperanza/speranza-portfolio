@@ -7,12 +7,10 @@ import { MdEmail } from "react-icons/md"
 import { RiFacebookFill, RiTwitterFill, RiLinkedinFill } from "react-icons/ri"
 
 const Contact = () => {
-  console.log(process.env)
   const form = useRef()
 
   const sendEmail = (e) => {
     e.preventDefault()
-    console.log(e)
 
     emailjs
       .sendForm(
@@ -86,7 +84,12 @@ const Contact = () => {
               <a href="https://twitter.com/PatrickSperanza" target="_blank">
                 <RiTwitterFill className="contacts-social-link" />
               </a>
-              <RiLinkedinFill className="contacts-social-link" />
+              <a
+                href="https://www.linkedin.com/in/patrick-speranza-893621273/"
+                target="_blank"
+              >
+                <RiLinkedinFill className="contacts-social-link" />
+              </a>
             </div>
           </div>
         </div>

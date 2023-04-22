@@ -10,23 +10,26 @@ const About = () => {
       </header>
       <main className="main">
         <div className="main-text">
-          <h3 className="main-heading">
-            I'm <span className="green-text">Patrick Speranza,</span> a Web
-            Developer
-          </h3>
-          <p className="main-paragraph">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum
-            excepturi similique voluptatem. Reprehenderit delectus officia dicta
-            quia obcaecati eos quidem suscipit quis rem? Alias tenetur esse
-            quis? Adipisci, voluptatibus fuga? Soluta laboriosam rem fuga
-            dolore, dolorum distinctio at illo earum maxime pariatur quae, sequi
-            odio
-          </p>
-          <p className="main-paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
-            praesentium veritatis ex debitis porro reiciendis. Unde natus, quas
-            corporis ipsam inventore placeat cum minus sed.
-          </p>
+          <div className="main-about">
+            <h3 className="main-heading">
+              I'm <span className="green-text">Patrick Speranza,</span> a Web
+              Developer
+            </h3>
+            <div className="main-paragraphs">
+              <p className="main-paragraph">
+                Hello, and welcome to my portfolio site! My name is Patrick, and
+                I am a web developer based in Northwest Indiana, just outside of
+                Chicago. I have a strong background in buidling responsive and
+                user-friendly web applications using technologies such as HTML,
+                CSS, JavaScript, and React.
+              </p>
+              <p className="main-paragraph">
+                Take a look at my latest projects below, and contact me to get
+                started on your own project. Thank you for taking the time to
+                visit my site. I look forward to working with you soon!
+              </p>
+            </div>
+          </div>
         </div>
         <div className="main-contact">
           <div className="main-contact-entry">
@@ -35,9 +38,11 @@ const About = () => {
           </div>
           <div className="main-contact-entry">
             <h6 className="main-contact-key">Email: </h6>
-            <p className="main-contact-value green-text">
-              patrick.m.speranza@gmail.com
-            </p>
+            <a href="#contact">
+              <p className="main-contact-value green-text">
+                patrick.m.speranza@gmail.com
+              </p>
+            </a>
           </div>
 
           <div className="main-contact-entry">
