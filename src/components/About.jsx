@@ -19,7 +19,7 @@ const About = () => {
               <p className="main-paragraph">
                 Hello, and welcome to my portfolio site! My name is Patrick, and
                 I am a web developer based in Northwest Indiana, just outside of
-                Chicago. I have a strong background in buidling responsive and
+                Chicago. I am passionate about buidling responsive and
                 user-friendly web applications using technologies such as HTML,
                 CSS, JavaScript, and React.
               </p>
