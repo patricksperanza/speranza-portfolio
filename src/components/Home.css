@@ -27,7 +27,7 @@
   flex-direction: column;
   align-items: center;
   position: relative;
-  margin-top: 70px;
+  margin-top: 22vh;
 }
 
 .home-text-primary {
@@ -66,4 +66,10 @@
 .home-text-btn:active {
   border: 0;
   box-shadow: inset 2px 2px 4px #333;
+}
+
+@media screen and (max-width: 500px) {
+  .home-text {
+    margin-top: 12vh;
+  }
 }
