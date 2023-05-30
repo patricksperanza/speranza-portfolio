@@ -2,9 +2,9 @@ import { useRef } from "react"
 import emailjs from "@emailjs/browser"
 
 import "./Contact.css"
-import { AiFillPhone } from "react-icons/ai"
+import { AiFillGithub, AiFillPhone } from "react-icons/ai"
 import { MdEmail } from "react-icons/md"
-import { RiFacebookFill, RiTwitterFill, RiLinkedinFill } from "react-icons/ri"
+import { RiTwitterFill, RiLinkedinFill } from "react-icons/ri"
 
 const Contact = () => {
   const form = useRef()
@@ -75,11 +75,8 @@ const Contact = () => {
           <div className="contacts-social">
             <h5>Follow Me</h5>
             <div className="contacts-social-links">
-              <a
-                href="https://www.facebook.com/patrick.speranza.5"
-                target="_blank"
-              >
-                <RiFacebookFill className="contacts-social-link" />
+              <a href="https://github.com/patricksperanza" target="_blank">
+                <AiFillGithub className="contacts-social-link" />
               </a>
               <a href="https://twitter.com/PatrickSperanza" target="_blank">
                 <RiTwitterFill className="contacts-social-link" />
