@@ -13,8 +13,8 @@ const Portfolio = () => {
         <div className="portfolio-header-line"></div>
       </header>
       <main className="portfolio-main">
-        <Project imgSrc={recorder} link="/recorder/#portfolio" />
         <Project imgSrc={flashcards} link="/flashcards/#portfolio" />
+        <Project imgSrc={recorder} link="/recorder/#portfolio" />
         <Project imgSrc={piano} link="/piano/#portfolio" />
         <Project imgSrc={game} link="/game/#portfolio" />
       </main>

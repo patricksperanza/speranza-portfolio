@@ -8,14 +8,14 @@ export const projectData = {
     date: "November 2022",
     repo: "https://github.com/patricksperanza/recorder-karate-v2",
   },
-  frontEndFlashcards: {
-    title: "Front End Flashcards",
-    image: "/frontEndFlashcards.png",
-    link: "https://front-endflashcards.netlify.app/",
-    info: "Front End Flashcards is a full stack study application built with the MERN stack. The app allows users to create, edit, and delete flashcards to study for interview questions.",
-    tech: "HTML, CSS, JavaScript, React, Node, Express, MongoDB",
-    date: "March 2023",
-    repo: "https://github.com/patricksperanza/mern-flashcards-front-end, https://github.com/patricksperanza/mern-flashcards-server",
+  fullStackFlashcards: {
+    title: "Full Stack Flashcards",
+    image: "/fullStackFlashcards.png",
+    link: "https://next-flashcards.vercel.app/",
+    info: "Full Stack Flashcards is a full stack study application built with Next JS. The app allows users to create, edit, and delete flashcards to study for interview questions.",
+    tech: "Next JS, TypeScript, Tailwind CSS, Next-Auth, MongoDB",
+    date: "June 2023",
+    repo: "https://github.com/patricksperanza/flashcards",
   },
   playfulPiano: {
     title: "Playful Piano",

@@ -6,7 +6,7 @@ import {
   Route,
 } from "react-router-dom"
 import RecorderKarate from "./pages/RecorderKarate"
-import FrontEndFlashcards from "./pages/FrontEndFlashcards"
+import FrontEndFlashcards from "./pages/FullStackFlashcards"
 import PlayfulPiano from "./pages/PlayfulPiano"
 import GameHub from "./pages/GameHub"
 
