@@ -1,7 +1,7 @@
 import React from "react"
 import "./Social.css"
 import { RiTwitterFill, RiLinkedinFill } from "react-icons/ri"
-import { AiFillGithub } from "react-icons/ai"
+import { AiFillGithub, AiFillYoutube } from "react-icons/ai"
 
 const Social = () => {
   return (
@@ -17,6 +17,12 @@ const Social = () => {
         target="_blank"
       >
         <RiLinkedinFill className="social-link" />
+      </a>
+      <a
+        href="https://www.youtube.com/channel/UCZGOwC4UW6078N6IKkNmLZA"
+        target="_blank"
+      >
+        <AiFillYoutube className="social-link" />
       </a>
     </div>
   )

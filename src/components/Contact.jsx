@@ -2,7 +2,7 @@ import { useRef } from "react"
 import emailjs from "@emailjs/browser"
 
 import "./Contact.css"
-import { AiFillGithub, AiFillPhone } from "react-icons/ai"
+import { AiFillGithub, AiFillPhone, AiFillYoutube } from "react-icons/ai"
 import { MdEmail } from "react-icons/md"
 import { RiTwitterFill, RiLinkedinFill } from "react-icons/ri"
 
@@ -86,6 +86,12 @@ const Contact = () => {
                 target="_blank"
               >
                 <RiLinkedinFill className="contacts-social-link" />
+              </a>
+              <a
+                href="https://www.youtube.com/channel/UCZGOwC4UW6078N6IKkNmLZA"
+                target="_blank"
+              >
+                <AiFillYoutube className="contacts-social-link" />
               </a>
             </div>
           </div>

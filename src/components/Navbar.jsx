@@ -17,8 +17,8 @@ const Navbar = () => {
         <a href="#portfolio">
           <li>Portfolio</li>
         </a>
-        <a href="#skills">
-          <li>Skills</li>
+        <a href="https://medium.com/@patrick.m.speranza" target="_blank">
+          <li>Blog</li>
         </a>
         <a href="#contact">
           <li>Contact</li>
